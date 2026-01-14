@@ -23,12 +23,12 @@ import { type ColumnDef } from "@tanstack/react-table"
 
 type VendorCategories =
     | 'Active'
-    | 'InActive'
-    | 'Database Access'
+    | 'Inactive'
+    | 'Database access'
     | 'Admin'
     | 'Salesforce'
     | 'Business data'
-    | 'Customer Data'
+    | 'Customer data'
     | 'Financials'
     | 'SOC2'
     | 'Legal'
@@ -53,7 +53,7 @@ export const Columns: ColumnDef<Vendor>[] = [
                 (table.getIsSomePageRowsSelected() && 'indeterminate')
             }
             onCheckedChange={(value) => table.toggleAllPageRowsSelected(!!value)}
-            aria-level='Select All'
+            aria-lebel="Select Al"
         />),
 
         cell: (({ row }) => <Checkbox
@@ -159,7 +159,7 @@ export const Columns: ColumnDef<Vendor>[] = [
                                     {item === "Active" && (
                                         <div className="size-1.5 bg-emerald-500 rounded-full" />
                                     )}
-                                    {item === "InActive" && (
+                                    {item === "Inactive" && (
                                         <div className="size-1.5 bg-muted-500 rounded-full" />
                                     )}
                                     <span>{item}</span>

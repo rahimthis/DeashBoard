@@ -7,7 +7,7 @@ import { DashboardCard } from "./components/DashboardCard"
 import { AppBarChart } from "./components/AppBarChart"
 import { AppRadialChart } from "./components/AppRadicalChart"
 import { TrendingUpIcon } from "lucide-react"
-import { DashboardTable } from "./components/DashboardTavle"
+import { DashboardTable } from "./components/DashboardTable"
 
 
 export const App = () => {
@@ -20,9 +20,7 @@ export const App = () => {
 
           <main>
             <Page>
-
               <PageHeader />
-
               <div className="grid gap-6 py-8 lg:grid-cols-[1fr_360px] ">
                 <DashboardCard
                   title='Vender breakdown'

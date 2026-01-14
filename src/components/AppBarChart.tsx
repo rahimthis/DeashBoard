@@ -35,6 +35,8 @@ export const AppBarChart = () => {
                 <BarChart accessibilityLayer
                     data={VENDOR_BREAKDOWN}
                     barSize={isMoboile ? 12 : 30}>
+                    <ChartTooltip content={<ChartTooltipContent />} />
+
                     <CartesianGrid vertical={false} />
 
                     <Bar
@@ -71,7 +73,6 @@ export const AppBarChart = () => {
 
                     }
 
-                    <ChartTooltip content={<ChartTooltipContent />} />
 
                     {!isMoboile &&
                         <ChartLegend content={<p className=" font-semibold text-muted-foreground  mt-2">Month</p>} />

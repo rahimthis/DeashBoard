@@ -4,10 +4,7 @@ import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/ThemeToggle"
 
 
-import { Logo } from "@/assets/Logo"
-
-
-import { DownloadIcon, Ghost, SearchIcon, Settings2Icon } from "lucide-react"
+import { DownloadIcon, SearchIcon, Settings2Icon } from "lucide-react"
 
 
 export const Page = ({ children }: React.PropsWithChildren) => {

@@ -3,12 +3,12 @@
  * components 
  */
 
-import { Button } from "./ui/button"
-import { Checkbox } from "./ui/checkbox"
+import { Button } from "@/components/ui/button"
+import { Checkbox } from "@/components/ui/checkbox"
 import Avatar from "react-avatar"
-import { Progress } from "./ui/progress"
-import { Badge } from "./ui/badge"
-import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip"
+import { Progress } from "@/components/ui/progress"
+import { Badge } from "@/components/ui/badge"
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip"
 
 
 

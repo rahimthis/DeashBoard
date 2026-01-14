@@ -1,7 +1,7 @@
 
 
-import { Button } from "./ui/button"
-import { ThemeToggle } from "./ThemeToggle"
+import { Button } from "@/components/ui/button"
+import { ThemeToggle } from "@/components/ThemeToggle"
 
 
 import { Logo } from "@/assets/Logo"

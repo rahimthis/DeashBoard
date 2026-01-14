@@ -4,7 +4,7 @@ import Avatar from 'react-avatar'
 
 import { Sidebar, SidebarContent, SidebarHeader, SidebarFooter, SidebarMenuItem, SidebarMenu, SidebarMenuButton, SidebarGroup, SidebarGroupContent, useSidebar } from './ui/sidebar'
 
-import { Button } from './ui/button'
+import { Button } from '@/components/ui/button'
 
 
 import { LogOutIcon } from "lucide-react"
@@ -12,7 +12,7 @@ import { LogOutIcon } from "lucide-react"
 import { Logo } from '@/assets/Logo'
 
 import { APP_SIDEBAR } from '@/constants'
-import { UserMenu } from './UserMenu'
+import { UserMenu } from '@/components/UserMenu'
 // import { useEffect } from 'react'
 
 

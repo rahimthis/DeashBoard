@@ -4,8 +4,8 @@
  * Constants
  */
 
-import { Badge } from "./ui/badge"
-import { Button } from "./ui/button"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
 import { UploadCloudIcon, PlusIcon } from "lucide-react"
 
 
@@ -17,7 +17,7 @@ import { Columns } from '@/components/Columns'
  * Assets
  */
 import { VENDOR_MOVEMENTS } from "@/constants"
-import { Datatable } from "./DataTable"
+import { Datatable } from "@/components/DataTable"
 
 
 export const DashboardTable = () => {

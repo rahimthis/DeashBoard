@@ -19,10 +19,10 @@ import {
     TableRow,
 } from "@/components/ui/table"
 
-import { Button } from "./ui/button"
+import { Button } from "@/components/ui/button"
 
-import { ToggleGroup, ToggleGroupItem } from "./ui/toggle-group"
-import { InputGroup, InputGroupAddon, InputGroupInput } from "./ui/input-group"
+import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group"
+import { InputGroup, InputGroupAddon, InputGroupInput } from "@/components/ui/input-group"
 
 
 // Hooks 

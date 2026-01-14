@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
  * hooks  
  */
 
-import { useSidebar } from "./ui/sidebar";
+import { useSidebar } from "@/components/ui/sidebar";
 
 
 /**
@@ -15,7 +15,7 @@ import { useSidebar } from "./ui/sidebar";
 
 import { Logo } from "@/assets/Logo";
 import { MenuIcon } from "lucide-react";
-import { ThemeToggle } from "./ThemeToggle";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 
 

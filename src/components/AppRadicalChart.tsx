@@ -3,7 +3,7 @@
 import { RadialBar, RadialBarChart, Label, PolarRadiusAxis } from "recharts"
 
 
-import { ChartContainer, ChartTooltip, ChartTooltipContent, type ChartConfig } from "./ui/chart"
+import { ChartContainer, ChartTooltip, ChartTooltipContent, type ChartConfig } from "@/components/ui/chart"
 
 
 import { VENDOR_MONITORED } from "@/constants"

@@ -1,4 +1,4 @@
-import { Button } from "./ui/button"
+import { Button } from "@/components/ui/button"
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/dropdown-menu"
 
 import { MoonIcon, SunIcon, MonitorIcon, CheckIcon } from "lucide-react"
-import { useTheme } from "./ThemeProvider"
+import { useTheme } from "@/components/ThemeProvider"
 
 export const ThemeToggle = () => {
     const { theme, setTheme } = useTheme()

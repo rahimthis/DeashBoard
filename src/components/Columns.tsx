@@ -1,5 +1,3 @@
-import { Component, Divide, Table } from "lucide-react"
-
 
 /**
  * components 

@@ -24,8 +24,6 @@ import { Button } from "./ui/button"
 import { ToggleGroup, ToggleGroupItem } from "./ui/toggle-group"
 import { InputGroup, InputGroupAddon, InputGroupInput } from "./ui/input-group"
 
-import { Kbd } from "./ui/kbd"
-
 
 // Hooks 
 
@@ -33,7 +31,7 @@ import { useState } from "react"
 
 
 //Asstes 
-import { ChevronDownCircleIcon, ChevronLeftIcon, ChevronRightIcon, ListFilterIcon, SearchIcon } from "lucide-react"
+import { ChevronLeftIcon, ChevronRightIcon, ListFilterIcon, SearchIcon } from "lucide-react"
 
 import type { ColumnFiltersState, SortingState } from "@tanstack/react-table"
 
